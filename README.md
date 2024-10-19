@@ -1,5 +1,9 @@
 # Ecomate 🌿
 
+![EcoMate Overview](read-me-images/1.png)
+![How to Use](read-me-images/2.png)
+![Design and Development](read-me-images/3.png)
+
 A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC levels. Data is processed and transmitted to a mobile app built with Expo for real-time tracking. Ecomate provides a portable solution for emission testing, promoting cleaner and safer environments and vehicle health.
 
 ## Features
@@ -48,4 +52,8 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
     ```bash
    npm install
    ```
-4. **Test on Mobile: ** Use the Expo Go app on your mobile device to scan the QR code and view real-time data.
+4. **Test on Mobile:** 
+    Use the Expo Go app on your mobile device to scan the QR code and view real-time data.
+
+### Usage
+
