@@ -1,4 +1,4 @@
-// Use Your Wi-Fi Credentials
+// Use Your Wi-Fi Credentials and Properly connect the Pins
 #include <WiFi.h>
 #include <math.h>
 
