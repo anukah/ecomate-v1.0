@@ -14,8 +14,6 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 
 ## How to Use
 
-![How to Use](read-me-images/2.png)
-
 - **Connect**: Attach the device to the vehicle's exhaust pipe and power it through the car's lighter socket.
 - **Login & Scan**: Open the EcoMate mobile app, log in to your account, and press the scan button.
 - **Receive Report**: Get a detailed report on your vehicle’s emission status directly on your mobile app.
@@ -65,5 +63,24 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/ecomate.git
+   git clone https://github.com/anukah/ecomate-v1.0.git
    cd ecomate/mobile-app
+   ```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+3. **Run the Expo App**
+   ```bash
+   npx expo start
+   ```
+4. **Test on Mobile**
+   Use the Expo Go app on your mobile device to scan the QR code and view real-time data.
+
+### Usage
+
+1. Power on the Arduino device to start monitoring.
+2. The ESP32 module sends data to the mobile app wirelessly.
+3. Open the mobile app using Expo Go to view CO and HC levels, as well as temperature data.
+4. The app provides a real-time view of emissions, helping ensure vehicle compliance with emission standards.
+  
