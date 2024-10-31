@@ -45,9 +45,11 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 
 ## App Interface
 
-### Login Page
-<img src="read-me-images/app-interface/login.PNG" alt="Login Page" width="30%">
-### Test Page
+### Login Page Testing Page
+<p align="center">
+  <img src="read-me-images/app-interface/login.PNG" alt="Login Page" width="50%">
+  <img src="read-me-images/app-interface/test.PNG" alt="Home Page" width="50%">
+</p>
 
 ### Testing Page
 
