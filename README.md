@@ -6,7 +6,7 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 
 ## Features
 
-- **Real-Time Monitoring**: Measures CO and HC levels using MQ9 and MQ2 sensors.
+- **Real-Time Monitoring**: Measures CO and HC levels using MQ7 and MQ2 sensors.
 - **Temperature Tracking**: Uses the LM35 sensor to monitor temperature changes.
 - **Wireless Communication**: Uses an ESP32 Wi-Fi module to transmit data to the mobile app.
 - **Mobile App Integration**: Data is displayed in an Expo-based mobile app for real-time monitoring.
@@ -29,7 +29,7 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 
 - Arduino Board (e.g., Arduino Uno)
 - ESP32 Wi-Fi Module
-- MQ9 Sensor (CO detection)
+- MQ7 Sensor (CO detection)
 - MQ2 Sensor (HC detection)
 - LM35 Sensor (Temperature measurement)
 - Breadboard, Wires, and Resistors
@@ -46,7 +46,7 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 ## App Interface
 
 ### Homepage
-
+! [Login Page](read-me-images/app-interface/login.png)
 ### Test Page
 
 ### Testing Page
@@ -70,7 +70,7 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 
 ### Arduino Setup
 
-1. **Connect the Sensors**: Follow the wiring diagram to connect MQ9, MQ2, LM35 sensors, and ESP32 module to the Arduino board.
+1. **Connect the Sensors**: Follow the wiring diagram to connect MQ7, MQ2, LM35 sensors, and ESP32 module to the Arduino board.
 2. **Upload Code**: Use the Arduino IDE to upload the `ecomate.ino` file to the Arduino board.
 3. **Verify Connections**: Ensure all sensors and the ESP32 module are properly connected and the Arduino board is powered on.
 
