@@ -43,6 +43,21 @@ A handheld, Arduino-based IoT vehicle emission tester. It monitors CO and HC lev
 - **Cost**: Approximately LKR 4000
 - **Increasing Accuracy**: Using two gas sensors with high sensitivity, extended sampling time for better average readings, and calibration in known gas concentrations.
 
+## App Interface
+
+### Homepage
+
+### Test Page
+
+### Testing Page
+
+### Report
+
+### Test Hisory
+
+### Detailed Test Report from History
+
+
 ## Software Requirements
 
 - Arduino IDE
